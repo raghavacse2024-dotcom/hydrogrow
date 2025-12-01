@@ -26,7 +26,7 @@ const Navbar = () => {
                         <Link to="/" className="text-primary-800 hover:text-primary-600 transition-colors font-medium">Home</Link>
                         <Link to="/shop" className="text-primary-800 hover:text-primary-600 transition-colors font-medium">Shop</Link>
                         <Link to="/about" className="text-primary-800 hover:text-primary-600 transition-colors font-medium">About</Link>
-                        <a href="/#subscription" className="text-primary-800 hover:text-primary-600 transition-colors font-medium">Subscription</a>
+
                         <Link to="/contact" className="text-primary-800 hover:text-primary-600 transition-colors font-medium">Contact</Link>
                     </div>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
                             <Link to="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-primary-800 hover:text-primary-600 hover:bg-primary-50">Home</Link>
                             <Link to="/shop" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-primary-800 hover:text-primary-600 hover:bg-primary-50">Shop</Link>
                             <Link to="/about" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-primary-800 hover:text-primary-600 hover:bg-primary-50">About</Link>
-                            <a href="/#subscription" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-primary-800 hover:text-primary-600 hover:bg-primary-50">Subscription</a>
+
                             <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-primary-800 hover:text-primary-600 hover:bg-primary-50">Contact</Link>
                         </div>
                     </motion.div>
