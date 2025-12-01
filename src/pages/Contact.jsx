@@ -180,7 +180,7 @@ const Contact = () => {
             {/* Map Section */}
             <section className="h-96 w-full bg-neutral-200 relative">
                 <iframe
-                    src="https://maps.google.com/maps?q=RR3Q%2BCFM%2C%20Chennai%20-%20Nagapattinam%20Hwy%2C%20Annai%20Nagar%2C%20Nagapattinam%2C%20Tamil%20Nadu%20611002&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=Sidco+industrial+estate+Nagapattinam&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
