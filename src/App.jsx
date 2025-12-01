@@ -7,6 +7,7 @@ import About from './pages/About';
 
 import ProductDetails from './pages/ProductDetails';
 import Checkout from './pages/Checkout';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<div className="text-center py-20">Contact Page Coming Soon</div>} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Layout>
   );
