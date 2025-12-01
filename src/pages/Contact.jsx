@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Facebook, Twitter, Instagram, Linkedin, Clock } from 'lucide-react';
+import contactBg from '../assets/contact-bg.png';
 
 const Contact = () => {
     const handleSubmit = (e) => {
@@ -13,7 +14,7 @@ const Contact = () => {
         <div className="min-h-screen bg-neutral-50 pt-20">
             {/* Hero Section */}
             <section className="bg-primary-900 text-white py-20 relative overflow-hidden">
-                <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center" />
+                <div className="absolute inset-0 opacity-10 bg-cover bg-center" style={{ backgroundImage: `url(${contactBg})` }} />
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
@@ -57,8 +58,8 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-primary-900">Phone</h3>
-                                    <p className="text-neutral-600">+1 (555) 123-4567</p>
-                                    <p className="text-neutral-500 text-sm">Mon-Fri 9am-6pm EST</p>
+                                    <p className="text-neutral-600">+91 8667005775</p>
+                                    <p className="text-neutral-500 text-sm">Mon-Fri 9am-6pm IST</p>
                                 </div>
                             </div>
 
